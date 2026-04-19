@@ -15,12 +15,10 @@ from dashboard.models import WildfireRecord
 
 
 class Command(BaseCommand):
-    """Class documentation."""
     # Short description shown when running `python manage.py help`
     help = "Import wildfire CSV into SQLite"
 
     def handle(self, *args, **kwargs):
-        """Function documentation."""
 
         # --- 1. LOAD CSV FROM REMOTE SOURCE ---
         # Fetch the dataset directly from the GitHub-hosted CSV file

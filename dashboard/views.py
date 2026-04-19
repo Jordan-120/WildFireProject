@@ -12,7 +12,6 @@ from .services import build_dashboard_data
 
 
 def dashboard_view(request):
-    """Function documentation."""
     """
     Main dashboard view. Calls the data pipeline in services.py
     and passes the full context (charts, maps, forecasts, metrics)

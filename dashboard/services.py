@@ -27,7 +27,6 @@ from datetime import datetime
 
 
 def assign_zone(lat, lon):
-    """Function documentation."""
     """
     Assigns a geographic zone label based on latitude and longitude.
     Divides Alberta into five zones:
@@ -50,7 +49,6 @@ def assign_zone(lat, lon):
 
 
 def choose_cause(row):
-    """Function documentation."""
     """
     Determines the most specific cause for a wildfire record.
     Checks columns in priority order (most specific to most general).
@@ -67,7 +65,6 @@ def choose_cause(row):
 # Subsequent calls return the cached output instantly.
 @lru_cache(maxsize=1)
 def build_dashboard_data():
-    """Function documentation."""
     """
     Main data pipeline function. Loads wildfire records from SQLite,
     cleans and engineers features, trains a RandomForestRegressor model,

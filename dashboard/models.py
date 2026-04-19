@@ -11,7 +11,6 @@ from django.db import models
 
 
 class WildfireRecord(models.Model):
-    """Class documentation."""
     """
     Represents a single wildfire record from the Alberta Open Data Portal.
     All fields are nullable to handle incomplete rows in the source CSV.

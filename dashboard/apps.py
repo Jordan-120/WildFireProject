@@ -12,7 +12,6 @@ from django.apps import AppConfig
 
 
 class DashboardConfig(AppConfig):
-    """Class documentation."""
     # Default primary key type for models in this app.
     default_auto_field = 'django.db.models.BigAutoField'
 
